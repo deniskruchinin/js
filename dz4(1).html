@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        var a = parseInt(prompt());
+        function number(hundreds,tens,units){
+            if(a<999){
+            this.hundreds = Math.trunc(a/100);
+            this.tens = Math.trunc(a%100/10);
+            this.units = Math.trunc(a%100%10);
+        }else{
+            delete this.hundreds;
+            delete this.tens;
+            delete this.units;
+            alert("число превышает 999");
+        }
+        }
+        var num = new number(a);
+        console.log(num);
+    </script>
+</body>
+</html>
