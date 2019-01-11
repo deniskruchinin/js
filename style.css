@@ -1,0 +1,38 @@
+body{
+   
+}
+
+
+
+div div{
+display: flex;
+border: 1px solid black;
+margin: 3px;
+width: 50px;
+height: 50px;
+}
+
+.osnova{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 465px;
+    background-color: darkgray;
+}
+h3{
+    margin: auto;
+    color: dimgrey;
+    font-size: 40px;
+}
+h2{
+    margin: auto;
+    color: navajowhite;
+    font-size: 40px; 
+}
+/*
+p{
+position: absolute;
+ top: -40px;
+right: 21px;
+}*/
