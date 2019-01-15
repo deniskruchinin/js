@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="korzina"></div>
+    <div id="tovar">
+        <div><h5>кроссовки</h5>
+        <img src="img/kros.jpeg"  alt="">
+        <p>1800 p</p>
+        <button class="buy">купить</button>
+        </div>
+        <div><h5>кроссовки</h5>
+        <img src="img/kros.jpeg"  alt="">
+        <p>1500 p</p>
+        <button class="buy">купить</button>
+        </div>
+          <div><h5>кроссовки</h5>
+        <img src="img/kros.jpeg"  alt="">
+        <p>1200 p</p>
+        <button class="buy">купить</button>
+        </div>
+          <div><h5>кроссовки</h5>
+        <img src="img/kros.jpeg"  alt="">
+        <p>1900 p</p>
+        <button class="buy">купить</button>
+        </div>
+    </div>
+     <script >
+    var tovar = document.getElementById('tovar');     
+var knopka = document.getElementsByClassName('buy');
+var kross= tovar.getElementsByTagName('div'); 
+for(j=0;j<kross.length;j++)
+for(i=0;i<knopka.length;i++)
+    knopka[i].onclick = f;
+         function f (){
+             var kopia = kross[0].cloneNode(true);
+             korzina.appendChild(kopia);
+         }
+
+
+   
+    
+    </script>
+</body>
+</html>
